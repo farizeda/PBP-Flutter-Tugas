@@ -1,8 +1,34 @@
 
+<<<<<<< HEAD
 ## **Lab 9 **
 ### 1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 
 
+=======
+## **Lab 9**
+### 1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
+Bisa. Tetapi akan tidak adanya struktur dari class yang jelas, penempatan data JSON bisa saja tidak sesuai dengan yang diinginkan. Hal tersebut tidak best practice karena terdapat kemungkinan logic error yang terjadi.
+
+### 2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
+- ListView : Menampilkan data dari JSON yang SUDAH ditangkap
+- FutureBuilder : Menampilkan data dari JSON yang AKAN ditangkap
+
+### 3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
+- Mengatur dependensi http
+- Membuat model penampung data dari JSON
+- Dengan metode GET, JSON akan ditangkap dan dibuat menjadi objek dari model yang telah dibuat
+- Menampilkan data dibantu dengan FutureBuilder
+
+### 4. Jelaskan bagaimana cara kamu mengimplementasikan *checklist* di atas.
+- Menambahkan drawer show_watchlist pada navigator
+- Membuat watchlist.dart yang memuat class Watchlist
+- Mengintall dependensi http
+- Menciptakan fungsi fetch atau penangkap JSON
+- Menampilkan data-data dari watchlist tugas 3
+- Sambungkan tiap Watchlist ke detail
+- Membuat halaman baru, yaitu detail dari film yang berisi ketentuan soal
+- Tambahkan tombol kembali dengan Navigator.pop
+>>>>>>> 2a72f92220514da1cd4aa6c96c2d88b825389753
 
 
 ## **Lab 8**
