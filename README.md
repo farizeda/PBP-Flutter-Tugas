@@ -1,11 +1,11 @@
 
 ## **Lab 9**
 ### 1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
-Bisa. Meskipun begitu, dikarenakan oleh tidak adanya struktur dari class yang jelas, penempatan data JSON bisa saja tidak sesuai dengan yang diinginkan. Hal tersebut tidak lebih baik karena terdapat kemungkinan logic error yang terjadi.
+Bisa. Tetapi akan tidak adanya struktur dari class yang jelas, penempatan data JSON bisa saja tidak sesuai dengan yang diinginkan. Hal tersebut tidak best practice karena terdapat kemungkinan logic error yang terjadi.
 
 ### 2. Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya.
-- FutureBuilder : Menampilkan data dari JSON yang AKAN ditangkap
 - ListView : Menampilkan data dari JSON yang SUDAH ditangkap
+- FutureBuilder : Menampilkan data dari JSON yang AKAN ditangkap
 
 ### 3. Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter.
 - Mengatur dependensi http
