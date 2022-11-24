@@ -1,5 +1,5 @@
 import 'package:tugas/main.dart';
-import 'package:tugas/form_budget.dart';
+import 'package:tugas/page/form_budget.dart';
 import 'package:flutter/material.dart';
 
 class DataBudgetPage extends StatefulWidget {
