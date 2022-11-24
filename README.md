@@ -1,10 +1,5 @@
 
-<<<<<<< HEAD
-## **Lab 9 **
-### 1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 
-
-=======
 ## **Lab 9**
 ### 1. Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?
 Bisa. Tetapi akan tidak adanya struktur dari class yang jelas, penempatan data JSON bisa saja tidak sesuai dengan yang diinginkan. Hal tersebut tidak best practice karena terdapat kemungkinan logic error yang terjadi.
@@ -28,7 +23,6 @@ Bisa. Tetapi akan tidak adanya struktur dari class yang jelas, penempatan data J
 - Sambungkan tiap Watchlist ke detail
 - Membuat halaman baru, yaitu detail dari film yang berisi ketentuan soal
 - Tambahkan tombol kembali dengan Navigator.pop
->>>>>>> 2a72f92220514da1cd4aa6c96c2d88b825389753
 
 
 ## **Lab 8**
